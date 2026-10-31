@@ -1,0 +1,39 @@
+{
+    "model_name": "Logistic Regression",
+    "model_type": "Pipeline",
+    "features": [
+        "amount",
+        "hour",
+        "distance_from_usual_km",
+        "failed_attempts",
+        "international"
+    ],
+    "target": "is_fraud",
+    "random_state": 42,
+    "training_rows": 3500,
+    "validation_rows": 750,
+    "testing_rows": 750,
+    "cross_validation_folds": 5,
+    "cv_f1_mean": 0.715949,
+    "cv_f1_std": 0.010268,
+    "selected_threshold": 0.5,
+    "validation_f1": 0.715953,
+    "test_accuracy": 0.805333,
+    "test_precision": 0.689655,
+    "test_recall": 0.734694,
+    "test_f1": 0.711462,
+    "test_roc_auc": 0.864385,
+    "test_average_precision": 0.746842,
+    "test_specificity": 0.839604,
+    "confusion_matrix": [
+        [
+            424,
+            81
+        ],
+        [
+            65,
+            180
+        ]
+    ],
+    "data_type": "synthetic demonstration data"
+}

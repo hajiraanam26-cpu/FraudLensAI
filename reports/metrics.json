@@ -1,0 +1,25 @@
+{
+    "accuracy": 0.8053,
+    "precision": 0.6897,
+    "recall": 0.7347,
+    "f1_score": 0.7115,
+    "roc_auc": 0.8644,
+    "average_precision": 0.7468,
+    "specificity": 0.8396,
+    "threshold": 0.5,
+    "confusion_matrix": [
+        [
+            424,
+            81
+        ],
+        [
+            65,
+            180
+        ]
+    ],
+    "test_rows": 750,
+    "model_type": "Pipeline",
+    "model_name": "Logistic Regression",
+    "cv_f1_mean": 0.7159,
+    "cv_f1_std": 0.0103
+}
